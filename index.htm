@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>progress-line</title>
+    <!-- css links -->
+    <!-- botstrap link -->
+    <link rel="stylesheet" href="css/bootstrap-5.2.0-dist/css/bootstrap.min.css">
+    <!-- the file of css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class=" d-flex align-items-center justify-content-center overflow-hidden bg-black">  
+    <!-- the container of nodes and buttons -->
+        <div class="container text-center w-50 m-auto position-relative">
+            <div class="progress-container d-flex  justify-content-between position-relative">
+                  <!-- the progressLine -->
+                <div class="progress" id="progress"></div> 
+              <!-- the nodes  -->
+                <div class="node  px-1 py-1  d-flex align-items-center justify-content-center active-node fw-bolder">
+                    1
+                </div>
+                <div class="node  px-1 py-1  d-flex align-items-center justify-content-center fw-bolder">
+                    2
+                </div>
+                <div class="node  px-1 py-1  d-flex align-items-center justify-content-center fw-bolder">
+                    3
+                </div>
+                <div class="node  px-1 py-1  d-flex align-items-center justify-content-center fw-bolder">
+                    4
+                </div>
+            </div>
+            <!-- the div of the buttons -->
+            <div class="buttons p-4 mt-3">
+            <button id="prev" class="btn btn-light px-4 py-2 fw-bold btn-1 ">back</button>
+            <button id="next" class=" btn-primary btn px-4 py-2 mx-2 fw-bold">next</button>
+            </div>
+        </div>
+    
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
